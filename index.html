@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Termômetro</title>
+</head>
+
+<body>
+    
+<div id="particles-js"></div>
+
+<div class="count-particles"> <span class="js-count-particles"></span></div>
+
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">particles</script>
+<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+<div id="particles-js"></div>
+<div class="count-particles"> <span class="js-count-particles"></span></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+
+    <main>
+        
+        <form action="">
+            <div>
+                <div class="box">
+                    <input type="text" class="value" placeholder="Insira um valor" id="input1" oninput="changeColor2()">
+                <select class="sinput" id="select1">
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheint">Graus Fahrenheint</option>
+                    <option value="celsius">Graus Celsius</option>
+                    </select>
+                </div>
+                <h1 id="equals">=</h1>
+                <div class="box">
+                    <input type="text" class="value" placeholder="Insira um valor" id="input2" oninput="changeColor1()">
+                    <select class="sinput" id="select2">
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheint">Graus Fahrenheint</option>
+                    <option value="celsius">Graus Celsius</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+            </div>
+        </form>
+        
+    </main>
+      
+
+    <script src="index.js"></script>
+</body>
+
+</html>
